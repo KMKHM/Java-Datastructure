@@ -1,0 +1,18 @@
+package Lesson01;
+
+public class Code06 {
+    public static void main(String[] args) {
+
+        int [] grades = new int [5];
+
+        grades[0] = 100;
+        grades[1] = 76;
+        grades[2] = 92;
+        grades[3] = 93;
+        grades[4] = 94;
+
+        for (int i = 0; i < grades.length; i++) {
+            System.out.println("Grade " + (i+1) + ": " + grades[i]);
+        }
+    }
+}
